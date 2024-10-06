@@ -1,0 +1,47 @@
+.App {
+ text-align: center;
+}
+
+div.container {
+  width: 200px;
+  margin: 10px auto;
+}
+div.parent {
+  background:  #434242e7;
+  position: relative;
+  border-radius: 50px;
+  width: 200px;
+  height: 30px;
+  display: flex;
+}
+div.dynamic {
+  position: absolute;
+  background: #bd0d0d;
+  color: #fff;
+  justify-content: center;
+  border-radius: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  transition: width 1.2s linear;
+}
+
+div.dynamic h2 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+form.progress {
+  margin-top: 10px;
+}
+form.progress label {
+  font-size: 18px;
+}
+form.progress input {
+  width: 50px;
+  padding: 8px 12px;
+  border-radius: 40px;
+}
+
